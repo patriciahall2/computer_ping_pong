@@ -11,24 +11,27 @@
     <div class="container">
       <h1>Let's play ping-pong!</h1>
       <img src=pingpongcat.jpg alt="Cat playing ping-pong">
-      <div id="enter">
-        <form id="enter" class="form-inline">
-          <div class="form-group">
-            <label for="number"></label><br />
-            <h3>How to play:<br><br>1.Type a number in the input field then press
-            enter.<br>2. If the number is divisible by 3 then you get a "ping".
-            <br>If the number is divisible by 5 you get a "pong". If the number is
-            divisible by 15 then you get a "pingpong".<br> 3.Your number will display
-            each number counting up to the numbers that lead up to the one you
-            chose and show which in the sequence are "ping", "pong", or "pingpong".
-            <br>4. This game can help you refine and test your skills in division.
-            Can you predict what the sequence will be?
-            </h3>
-            <br>
-            <input id="yournumber" class="form-control" type="text">
-          </div><br><br>
-          <button type="submit" class="btn">See the result!</button>
-        </form>
+      <h3>How to play:<br><br>1.Type a number in the input field then press
+      enter.<br>2. If the number is divisible by 3 then you get a "ping".
+      <br>If the number is divisible by 5 you get a "pong". If the number is
+      divisible by 15 then you get a "pingpong".<br> 3.Your number will display
+      each number counting up to the numbers that lead up to the one you
+      chose and show which in the sequence are "ping", "pong", or "pingpong".
+      <br>4. This game can help you refine and test your skills in division.
+      Can you predict what the sequence will be?
+      </h3>
+      <br>
+        <div id="enter">
+          <form id="enter" class="form-inline">
+            <div class="form-group">
+              <label for="number"></label><br />
+              <input id="yournumber" class="form-control" type="text">
+            </div><br><br>
+           <button type="submit" class="btn">See the result!</button>
+          </form>
+       </div>
+      <div id="result">
+      <h4 id="pingpongresults"></h4>
       </div>
       </div>
     </div>
